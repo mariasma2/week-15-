@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="/registration/regist.css">
+
+</head>
+<body>
+    <form action="">
+        <center><h1 title="Форма регистрации на сайте">Регистрация</h1></center>
+        <div class="group">
+<label for="">Имя пользователя</label>
+<input type="login"  id="login">
+        </div>
+        <div class="group">
+            <label for="">Пароль</label>
+            <input type="password"  id="password" >
+        </div>
+        <div class="group">
+            <label for="">Повторите пароль</label>
+            <input type="password1"  id="password1" >
+        </div>
+        <div class="group">
+            <label for="">Email</label>
+            <input type="email" id="email">
+        </div>
+        <div class="group">
+            <label for="">Номер телефона</label>
+            <input type="number" id="number" >
+        </div>
+        <div class="group">
+            <center><div id="errorMessage"></div>
+        <button type="button" onclick="check()">Регистрация </button></center>
+        </div>
+
+    </form>
+    <script src="/registration/regist.js"></script>
+</body>
+</html>
